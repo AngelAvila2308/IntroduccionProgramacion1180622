@@ -1,5 +1,20 @@
-- Animal 
-- Pajaro
-- Pingüino
-- Pingüino emperador
-- Tommy el pingüino
+Hay cinco recetas:
+- Ensalada de pollo 
+- Pavo horneado
+- Pollo picante
+- Ensalada de lentejas
+- Dip de ajo
+1)  Que se cocine en menos de 20 min y que no sea vegetariano.
+
+En este se descarta el pavo horneado y pollo picante por superar los 20 minutos.
+Luego se descarta la ensalada ya que no tiene nada de carne.
+
+2) Que incluya pollo y pavo, pero no ajo.
+
+Aqui se descarta el dip de ajo ya que tiene Ajo
+
+3) Que no incluya nueces.
+
+La unica receta que trae nueces esta descartada por lo tanto no hay nada mas que descartar.
+
+Respuesta// La unica receta que quedo es la ensalada de pollo ya que no dura mas de 20 minutos, no es vegetariano, incluye pollo y no trae nueces.
