@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace L6_AngelAvila_1180622
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+                string contrasenia = "";
+                string contraseniados = "";
+                Console.WriteLine("Ingresa una contraseña: ");
+                contrasenia = Console.ReadLine();
+
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Ingrese su contraseña: ");
+                contraseniados = Console.ReadLine();
+
+            } while ((contrasenia.Equals(contraseniados)));
+        }
+    }
+                
+}

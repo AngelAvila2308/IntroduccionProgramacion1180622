@@ -1,0 +1,16 @@
+def inicio():
+	pokemon = True
+	avengers = True
+	deadpool = false
+
+	if Deadpoll and (Pokemon and Avengers)
+		print("Te puede gustar Dragon Ball")
+	else:
+		print("Te puede gustar Flash")
+
+
+
+
+	# Metodo main
+	if --name-- == '__main__
+		inicio()

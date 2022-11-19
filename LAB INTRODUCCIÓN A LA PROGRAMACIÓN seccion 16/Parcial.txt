@@ -1,0 +1,108 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace P1_AngelAvila_1180622
+{
+    internal class Program
+    {
+
+        static void Main(string[] args)
+        {
+            bool salida = true;
+
+            while (salida)
+            {
+                Console.WriteLine("Ingrese su nombre: ");
+                string name = Console.ReadLine();
+                Console.WriteLine("Bienvenido: " + name + ". Escoja una de las siguientes opciones: ");
+
+                Console.WriteLine("1) Ingresos");
+                Console.WriteLine("2) Egresos");
+                Console.WriteLine("3) Resultado");
+                Console.WriteLine("4) Salir");
+                int opcion = Convert.ToInt16(Console.ReadLine());
+                string respuesta;
+                double ingresos;
+                double suma;
+                double egresos;
+                double suma2;
+                bool puerta;
+
+                if (opcion == 1)
+                {
+                    Console.WriteLine("Pon tus ingresos mensuales");
+                    ingresos = Convert.ToDouble(Console.ReadLine());
+
+                    do
+                    {
+                        Console.WriteLine("¿Deseas escribir mas ingresos?");
+                        respuesta = Console.ReadLine();
+                            Console.WriteLine("Ingresa la cantidad: ");
+                            suma = Convert.ToDouble(Console.ReadLine());
+                            ingresos = suma + ingresos;
+
+                    } while (respuesta == "si");
+                }
+                else if (opcion == 2)
+                {
+                    Console.WriteLine("Pon tus egresos mensuales");
+                    egresos = Convert.ToDouble(Console.ReadLine());
+
+                    do
+                    {
+                        Console.WriteLine("¿Deseas escribir mas ingresos?");
+                        respuesta = Console.ReadLine();
+                       
+                            Console.WriteLine("Ingresa la cantidad: ");
+                            suma2 = Convert.ToDouble(Console.ReadLine());
+                            egresos = suma2 + egresos;
+                    } while (respuesta == "si");
+                }
+                else if (opcion == 3)
+                {
+                    double total;
+                    total = ingresos - egresos;
+                    if (total > 0)
+                    {
+                        Console.WriteLine("Consejos para invertir: ");
+                        Console.WriteLine("Consejo 1: Conoce la conducta financiera del mercado elegido");
+                        Console.WriteLine("Consejo 2: Consulta a especialistas en inversiones");
+                        Console.WriteLine("Consejo 3: No inviertas solo por seguir las tendencias");
+                        Console.WriteLine("Consejo 4: No mezclar finanzas personales con las del negocio");
+
+                    }
+                    else if (total < 0)
+                    {
+                        Console.WriteLine("Consejos para mejorar finanzas: ");
+                        Console.WriteLine("Consejo 1: Fija metas financieras");
+                        Console.WriteLine("Consejo 2: Elimina gastos variables que no sean necesarios");
+                        Console.WriteLine("Consejo 3: Busca una manera de reducir tus gastos personales, como comprando algo mas barato");
+                        Console.WriteLine("Consejo 4: Haz presupuesto mensual para saber tus progresos");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Tus ingresos quedan exactos con los egresos");
+                    }
+
+                }
+                else if (opcion == 4)
+                {
+                    Console.WriteLine("Gracias por preferirnos, vuelva pronto");
+                    salida = false;
+                }
+                else
+                {
+                    Console.WriteLine("Error, opcion inexistente. Vuelva a intentarlo");
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+            }
+
+        }
+
+
+    }
+}

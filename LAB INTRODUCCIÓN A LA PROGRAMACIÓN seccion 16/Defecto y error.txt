@@ -1,0 +1,11 @@
+Primero, determina cuál es el error:
+
+Los errores son condiciones inesperadas en el sistema. Los errores pueden ser repetibles o no repetibles, conocidos o desconocidos. Nadie puede asumir todos los 
+posibles estados del sistema, se producirán errores e incógnitas al diseñar y construir soluciones. Esto no significa que será válido durante la vida útil del sistema.
+Todos los errores desconocidos y repetibles deben convertirse en errores conocidos. Para ello, debe existir un departamento encargado de monitorear y controlar 
+los errores de diseño del sistema. El monitoreo y la medición de errores es el único mecanismo para distinguir entre errores y defectos.
+
+Ahora bien, ¿qué se considera un defecto? Un defecto es cualquier falla del sistema que no se puede detectar, replicar o reparar, o que el costo de la reparación 
+excede los beneficios potenciales de la reparación.
+Las correcciones de errores a menudo se confunden con defectos y si un equipo sabe que tiene un error estructural, es fácil decir que un problema en particular no 
+aparecerá en la próxima versión. Los defectos en estos equipos no son un indicador constante de la calidad del proyecto.

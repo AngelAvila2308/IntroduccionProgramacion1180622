@@ -1,0 +1,18 @@
+Estructura switch
+
+La estructura del interruptor selector determina una de varias opciones. Esta construcción es especialmente útil cuando se seleccionan valores que dependen de 
+variables simples o expresiones simples llamadas selectores o expresiones de control.
+
+Estructura:
+
+Switch (Variable) {
+	case etiqueta1:
+		sentencia1;
+	break;
+	...
+	case etiquetaN:
+		sentenciaN;
+	break;
+	default:
+		sentenciaopcional;
+}

@@ -1,0 +1,15 @@
+Inicio
+
+- Ingresar la edad del primer hermano
+- ingresar la edad del segundo hermano
+
+Proceso
+
+- el programa leera las dos edades
+- luego lo analizara usando una condicion de if, si el primer hermano es mayor entonces restara el primer hermano con el segundo,
+pero si es el segundo hermano que tiene el mayor numero de edad tiene que restar la edad del segundo hermano con la del primero. 
+
+Final
+
+- Tras eso mandaria un mensaje mostrando las edades de cada uno, luego mandaria otro donde dice cual es el mayor sumando al resultado de la resta que dio entre los
+dos hermanos.
