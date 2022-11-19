@@ -1,0 +1,12 @@
+1) Ingresar a cualquier tubo del 1 al 5
+2) Ignorar cualquier tubo que pase del lado izquierdo
+3) Seguir solo por los tubos donde sea derecho
+4) si no encuentra ninguna salida de su lado izquierdo entonces tendra que seguir recto.
+
+
+
+
+
+
+General
+1) El raton entrando al tubo siempre tiene que ir hacia la derecha no importando si hay una salida de lado derecho, si no encuentra ninguna salida de su lado izquierdo entonces tendra que seguir recto.
