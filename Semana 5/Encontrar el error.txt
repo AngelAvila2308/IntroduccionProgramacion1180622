@@ -1,0 +1,19 @@
+let mines = 0
+let n = 1
+star loop
+	if square, has a mine
+		then mines = mines + 1
+	n = n + 1
+loop again if n < 8
+
+Si se queria hacer que llegara al 9 no debia ponerse en 
+< 8 ya que no contaria al 8 y el 9, por lo que mejor estrategia se 
+cambiaria el 8 por el 10 asi:
+
+let mines = 0
+let n = 1
+star loop
+	if square, has a mine
+		then mines = mines + 1
+	n = n + 1
+loop again if n < 10
