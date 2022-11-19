@@ -1,0 +1,47 @@
+Formula se necesita dividir en 10 cada numero hasta dejarlo en 0, mientras se va calculando cuantas veces se divide entre 10.
+
+1) 123/10 = 12.3
+2) 12.3/10 = 1.23
+3) 1.23/10 = 0.123
+
+total 3 veces divididas
+3 cifras
+
+1) 3/10 = 0.3
+
+total 1 vez dividido
+1 cifra
+
+1) 2/10 = 0.2
+
+total 1 vez dividido
+1 cifra
+
+1) 1/10 = 0.1
+
+total 1 vez dividido
+1 cifra
+
+1) 19902/10 = 1990.2
+2) 1990.2/10 = 199.02
+3) 199.02/10 = 19.902
+4) 19.902/10 = 1.9902
+5) 1.9902/10 = 0.19902
+
+total 5 veces dividido
+5 cifras
+
+1) 2/10 = 0.2
+
+total 1 vez dividido
+1 cifra
+
+1) 0/10 = 0
+
+total 0 veces dividido
+0 cifras
+
+1) 9/10 = 0.9
+
+total 1 vez dividido
+1 cifra
